@@ -1,0 +1,136 @@
+.header-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    color: brown;   
+}
+header nav a.active{
+    background-color: #F8B;
+    color: #FFF;
+}
+header a.logo{
+    color:black;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+section#intro{
+    background-image: url('images/istockphoto-1390005458-1024x1024.jpg');
+    background-color: white;
+    background-position: center ;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+section#intro h1{
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 10px;
+    color:yellow;
+}
+a.button{
+    background-color: orangered;
+    color: wheat;
+    padding: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 250px;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    color: crimson;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+h3{
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+
+}
+section{
+    padding-top: 10px;
+    padding-bottom: 15%;
+    -webkit-text-stroke: 2px;
+    cursor: all-scroll;
+    color:black;
+
+
+}
+.two-column{
+    display: grid;
+    grid-template-columns: fr 3fr;
+}
+section#about{
+    background-image: url('images/istockphoto-1990444472-1024x1024.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    border-radius: 100% ;
+    
+}
+section#about h4{
+    font-size: 3rem;
+    margin-bottom: 15px;
+
+
+}
+section#services{
+    background-image: url('images/istockphoto-1432243696-1024x1024.jpg');
+    background-repeat: no-repeat; 
+    background-size: 80%;
+    background-position: center;
+}
+div.date{
+    color: white;
+    background-color:rebeccapurple;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+section#news{
+    background-image: url('images/istockphoto-1390233984-1024x1024.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 63%;
+    padding-right: 10%;   
+
+}
+section#newsletter form{
+    display: flex;
+     
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    height: 50px;
+    border:  solid gold; 
+}
+section#newsletter form input{
+    border: 10px;
+    padding: 10px;
+      
+}
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
